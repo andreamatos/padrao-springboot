@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+	<property name="int2" value="NUMBER(2,0)" dbms="oracle" />
+	<property name="int2" value="int" dbms="postgresql" />
+	<property name="int4" value="NUMBER(4,0)" dbms="oracle" />
+	<property name="int4" value="int" dbms="postgresql" />
+	<property name="int6" value="NUMBER(6,0)" dbms="oracle" />
+	<property name="DATA_TABLESPACE" value="SIAA" dbms="oracle" />
+	<property name="INDEX_TABLESPACE" value="IDXACD" dbms="oracle" />
+	<property name="grantedUsers" value="SEGADM,INTERNET_USERS" dbms="oracle" />
+	<property name="Long18" value="NUMBER(18,0)" dbms="oracle" />
+	<property name="DATA_TABLESPACE" value="SIAA" dbms="oracle"/>
+    <property name="INDEX_TABLESPACE" value="IDXACD" dbms="oracle"/>
+    <property name="grantedUsers" value="SEGADM,INTERNET_USERS,INTERNETCOM" dbms="oracle"/>
+</databaseChangeLog>
